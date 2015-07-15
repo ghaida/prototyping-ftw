@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "ubuntu";
+  src: url('ubuntu-m-webfont.eot');
+  src: url('ubuntu-m-webfont.eot?#iefix') format('embedded-opentype'),
+       url('ubuntu-m-webfont.woff') format('woff'),
+       url('ubuntu-m-webfont.ttf') format('truetype'),
+       url('ubuntu-m-webfont.svg#ubuntumedium') format('svg');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "ubuntu";
+  src: url('ubuntu-r-webfont.eot');
+  src: url('ubuntu-r-webfont.eot?#iefix') format('embedded-opentype'),
+       url('ubuntu-r-webfont.woff') format('woff'),
+       url('ubuntu-r-webfont.ttf') format('truetype'),
+       url('ubuntu-r-webfont.svg#ubuntulight') format('svg');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "ubuntu";
+  src: url('ubuntu-l-webfont.eot');
+  src: url('ubuntu-l-webfont.eot?#iefix') format('embedded-opentype'),
+       url('ubuntu-l-webfont.woff') format('woff'),
+       url('ubuntu-l-webfont.ttf') format('truetype'),
+       url('ubuntu-l-webfont.svg#ubuntulight') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}

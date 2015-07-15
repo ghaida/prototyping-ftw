@@ -1,0 +1,62 @@
+/**
+ * Black theme for reveal.js. This is the opposite of the 'white' theme.
+ *
+ * Copyright (C) 2015 Hakim El Hattab, http://hakim.se
+ */
+
+
+// Default mixins and settings -----------------
+@import "../template/mixins";
+@import "../template/settings";
+// ---------------------------------------------
+
+
+// Include theme-specific fonts
+@import url(../../lib/font/ubuntu/ubuntu.css);
+
+
+// Override theme settings (see ../template/settings.scss)
+$backgroundColor: #fafafa;
+
+$mainColor: #222;
+$headingColor: #66758A;
+
+$mainFontSize: 38px;
+$mainFont: 'ubuntu', Helvetica, sans-serif;
+$headingFont: 'ubuntu', Helvetica, sans-serif;
+$headingTextShadow: none;
+$headingLetterSpacing: normal;
+$headingTextTransform: none;
+$headingFontWeight: 600;
+$linkColor: #F15B24;
+$linkColorHover: lighten( $linkColor, 15% );
+$selectionBackgroundColor: lighten( $linkColor, 25% );
+
+$heading1Size: 2.5em;
+$heading2Size: 1.6em;
+$heading3Size: 1.3em;
+$heading4Size: 1.0em;
+
+section.has-light-background {
+	&, h1, h2, h3, h4, h5, h6 {
+		color: #222;
+	}
+}
+
+
+// Theme template ------------------------------
+@import "../template/theme";
+// ---------------------------------------------
+
+
+.start-slide {
+	background: linear-gradient(180deg, transparent, rgba(#98779C, .5), #632D3A),
+              url("../../img/orion.jpg") 0 0 no-repeat fixed;
+  background-attachment: fixed;
+  background-size: cover;
+}
+h1, h2, h3, h4, h5, h6 {
+	&.subheader {
+		font-weight: 300;
+	}
+}
