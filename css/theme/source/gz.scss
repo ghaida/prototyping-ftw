@@ -67,7 +67,7 @@ h1, h2, h3, h4, h5, h6 {
   h1, h2, h3, h4, h5, h6 {
     color: #fff;
     text-shadow: 0 1px 12px rgba(0,0,0,.9);
-    background-color: rgba(0,0,0,.3);
+    background-color: rgba(0,0,0,.1);
     &.subheader {
       color: #fff;
       text-shadow: 0 1px 12px rgba(0,0,0,.9);
@@ -85,6 +85,7 @@ ul.inline-block li {
   vertical-align: middle;
   padding-left: 5rem;
   &:first-child { padding-left: 0; }
+  p { margin-left: -.5rem; }
 }
 .reveal section img.logo,
 .reveal section img.whoa {
@@ -94,3 +95,4 @@ ul.inline-block li {
 .reveal section img.whoa {
   background: transparent none;
 }
+.text-center { text-align: center; }

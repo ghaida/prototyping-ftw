@@ -285,7 +285,7 @@ h1 .heavy, h2 .heavy, h3 .heavy, h4 .heavy, h5 .heavy, h6 .heavy {
 .img-slide h1, .img-slide h2, .img-slide h3, .img-slide h4, .img-slide h5, .img-slide h6 {
   color: #fff;
   text-shadow: 0 1px 12px rgba(0, 0, 0, 0.9);
-  background-color: rgba(0, 0, 0, 0.3); }
+  background-color: rgba(0, 0, 0, 0.1); }
   .img-slide h1.subheader, .img-slide h2.subheader, .img-slide h3.subheader, .img-slide h4.subheader, .img-slide h5.subheader, .img-slide h6.subheader {
     color: #fff;
     text-shadow: 0 1px 12px rgba(0, 0, 0, 0.9); }
@@ -302,6 +302,8 @@ ul.inline-block li {
   padding-left: 5rem; }
   ul.inline-block li:first-child {
     padding-left: 0; }
+  ul.inline-block li p {
+    margin-left: -0.5rem; }
 
 .reveal section img.logo, .reveal section img.whoa {
   border: 0;
@@ -309,3 +311,6 @@ ul.inline-block li {
 
 .reveal section img.whoa {
   background: transparent none; }
+
+.text-center {
+  text-align: center; }
