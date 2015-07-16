@@ -86,7 +86,11 @@ ul.inline-block li {
   padding-left: 5rem;
   &:first-child { padding-left: 0; }
 }
-.reveal section img.logo {
+.reveal section img.logo,
+.reveal section img.whoa {
   border: 0;
   box-shadow: 0 0 0;
+}
+.reveal section img.whoa {
+  background: transparent none;
 }
