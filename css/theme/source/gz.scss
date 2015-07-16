@@ -55,14 +55,14 @@ section.has-light-background {
   background-attachment: fixed;
   background-size: cover;
 }
+.heavy {
+  font-weight: 700;
+}
 h1, h2, h3, h4, h5, h6 {
-  &.heavy {
-    font-weight: 700;
-  }
+  &.heavy { font-weight: 700; }
+  .heavy { font-weight: 700; }
 }
-.reveal section img {
-  border: 1px solid #ccc;
-}
+.reveal section img { border: 1px solid #ccc; }
 .img-slide {
   h1, h2, h3, h4, h5, h6 {
     color: #fff;

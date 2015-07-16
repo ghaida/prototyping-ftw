@@ -271,7 +271,12 @@ body {
   background-attachment: fixed;
   background-size: cover; }
 
+.heavy {
+  font-weight: 700; }
+
 h1.heavy, h2.heavy, h3.heavy, h4.heavy, h5.heavy, h6.heavy {
+  font-weight: 700; }
+h1 .heavy, h2 .heavy, h3 .heavy, h4 .heavy, h5 .heavy, h6 .heavy {
   font-weight: 700; }
 
 .reveal section img {
