@@ -67,9 +67,26 @@ h1, h2, h3, h4, h5, h6 {
   h1, h2, h3, h4, h5, h6 {
     color: #fff;
     text-shadow: 0 1px 12px rgba(0,0,0,.9);
+    background-color: rgba(0,0,0,.3);
     &.subheader {
       color: #fff;
       text-shadow: 0 1px 12px rgba(0,0,0,.9);
     }
   }
+}
+ul.inline-block {
+  list-style: none;
+  margin: 0 auto;
+  display: table;
+}
+ul.inline-block li {
+  display: table-cell;
+  width: 10em;
+  vertical-align: middle;
+  padding-left: 5rem;
+  &:first-child { padding-left: 0; }
+}
+.reveal section img.logo {
+  border: 0;
+  box-shadow: 0 0 0;
 }
