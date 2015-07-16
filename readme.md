@@ -9,3 +9,4 @@ This is a practical talk about why you should prototype early and often, how a p
 #### Things I used
 * [Reveal.js](http://lab.hakim.se/reveal-js/)
 * [Atom text editor](http://atom.io)
+* [Giphy](http://giphy.com/) and [bukk.it](http://bukk.it) extensively
