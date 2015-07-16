@@ -21,13 +21,13 @@ $backgroundColor: #fafafa;
 $mainColor: #222;
 $headingColor: #66758A;
 
-$mainFontSize: 38px;
+$mainFontSize: 42px;
 $mainFont: 'ubuntu', Helvetica, sans-serif;
 $headingFont: 'ubuntu', Helvetica, sans-serif;
 $headingTextShadow: none;
 $headingLetterSpacing: normal;
 $headingTextTransform: none;
-$headingFontWeight: 600;
+$headingFontWeight: 300;
 $linkColor: #F15B24;
 $linkColorHover: lighten( $linkColor, 15% );
 $selectionBackgroundColor: lighten( $linkColor, 25% );
@@ -38,9 +38,9 @@ $heading3Size: 1.3em;
 $heading4Size: 1.0em;
 
 section.has-light-background {
-	&, h1, h2, h3, h4, h5, h6 {
-		color: #222;
-	}
+  &, h1, h2, h3, h4, h5, h6 {
+    color: #222;
+  }
 }
 
 
@@ -50,26 +50,26 @@ section.has-light-background {
 
 
 .start-slide {
-	background: linear-gradient(180deg, transparent, rgba(#98779C, .5), #632D3A),
+  background: linear-gradient(180deg, transparent, rgba(#98779C, .5), #632D3A),
               url("../../img/orion.jpg") 0 0 no-repeat fixed;
   background-attachment: fixed;
   background-size: cover;
 }
 h1, h2, h3, h4, h5, h6 {
-	&.subheader {
-		font-weight: 300;
-	}
+  &.heavy {
+    font-weight: 700;
+  }
 }
 .reveal section img {
-	border: 1px solid #ccc;
+  border: 1px solid #ccc;
 }
 .img-slide {
-	h1, h2, h3, h4, h5, h6 {
-		color: #fff;
-		text-shadow: 0 1px 10px rgba(0,0,0,.8);
-		&.subheader {
-			color: #fff;
-			text-shadow: 0 1px 10px rgba(0,0,0,.8);
-		}
-	}
+  h1, h2, h3, h4, h5, h6 {
+    color: #fff;
+    text-shadow: 0 1px 12px rgba(0,0,0,.9);
+    &.subheader {
+      color: #fff;
+      text-shadow: 0 1px 12px rgba(0,0,0,.9);
+    }
+  }
 }

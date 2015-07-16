@@ -16,7 +16,7 @@ body {
 
 .reveal {
   font-family: 'ubuntu', Helvetica, sans-serif;
-  font-size: 38px;
+  font-size: 42px;
   font-weight: normal;
   color: #222; }
 
@@ -36,7 +36,7 @@ body {
   margin: 0 0 20px 0;
   color: #66758A;
   font-family: 'ubuntu', Helvetica, sans-serif;
-  font-weight: 600;
+  font-weight: 300;
   line-height: 1.2;
   letter-spacing: normal;
   text-transform: none;
@@ -271,15 +271,15 @@ body {
   background-attachment: fixed;
   background-size: cover; }
 
-h1.subheader, h2.subheader, h3.subheader, h4.subheader, h5.subheader, h6.subheader {
-  font-weight: 300; }
+h1.heavy, h2.heavy, h3.heavy, h4.heavy, h5.heavy, h6.heavy {
+  font-weight: 700; }
 
 .reveal section img {
   border: 1px solid #ccc; }
 
 .img-slide h1, .img-slide h2, .img-slide h3, .img-slide h4, .img-slide h5, .img-slide h6 {
   color: #fff;
-  text-shadow: 0 1px 10px rgba(0, 0, 0, 0.8); }
+  text-shadow: 0 1px 12px rgba(0, 0, 0, 0.9); }
   .img-slide h1.subheader, .img-slide h2.subheader, .img-slide h3.subheader, .img-slide h4.subheader, .img-slide h5.subheader, .img-slide h6.subheader {
     color: #fff;
-    text-shadow: 0 1px 10px rgba(0, 0, 0, 0.8); }
+    text-shadow: 0 1px 12px rgba(0, 0, 0, 0.9); }
